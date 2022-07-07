@@ -66,6 +66,7 @@
   }
   
   .nav-button {
+    cursor: pointer;
     border: none;
     background: none;
     width: 100%;
