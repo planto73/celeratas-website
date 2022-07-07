@@ -1,0 +1,35 @@
+:root {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    --text-col: #b6b6b6;
+    --bg-col: #23232e;
+}
+
+* {
+    background-color: white;
+}
+
+.navbar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--bg-col);
+}
+
+.navbar-nav {
+    list-style: None;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    height: 5rem;
+    width: 5rem;
+    color: var(--text-col);
+    background-color: var(--bg-col);
+}
+
+.actions svg {
+    color: lime;
+}
